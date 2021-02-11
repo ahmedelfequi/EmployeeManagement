@@ -42,6 +42,8 @@ namespace EmployeeManagement.Controllers
                     City = model.City
                 };
 
+
+
                 // Store user data in AspNetUsers database table
                 var result = await userManager.CreateAsync(user, model.Password);
 
